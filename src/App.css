@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'TAEBAEKmilkyway';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }  
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-family: 'TAEBAEKmilkyway', sans-serif; /* 적용할 글꼴 선택 */
+    text-align: center;
+  }
+  
+  .App {
+    font-family: 'TAEBAEKmilkyway', sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  #title {
+    width: 700px;
+    height: 100px;
+    background-color: #dea4a4;
+    color: #fff;
+    padding-top: 10px;
+  }
+  #title p {
+    color: white;
+    margin-bottom: 5px;
+  }
+  img{
+    width: 25px;
+    margin-bottom: 5px;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #cf9eab;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 295px;
+  }
+  
+  button:hover {
+    background-color: rgb(213, 126, 155);
+  }
+  
+  p {
+    margin-top: 20px;
+    word-wrap: break-word;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .password-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .password-box p {
+    margin: 0;
+  }
+  
+  .guidelines {
+    margin-bottom: 20px;
+  }
+  
+  .guidelines p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
